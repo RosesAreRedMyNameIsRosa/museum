@@ -6,8 +6,8 @@ require 'pry'
 
 class PatronTest < MiniTest::Test
 	def test_that_it_exist
-		patron = Patron.new("bob")
+		bob = Patron.new("bob")
 		# binding.pry
-		assert_equal "bob", patron.name
+		assert_equal "bob", bob.name
 	end
 end
