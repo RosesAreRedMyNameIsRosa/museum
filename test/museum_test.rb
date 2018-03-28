@@ -18,4 +18,9 @@ class MuseumTest < MiniTest::Test
 
 	end
 
+	def test_how_much_revenue_dmns_has
+		dmns = Museum.new("Denver Museum of Nature and Science")
+		dmns.revenue
+		assert_equal 0,dmns.revenue
+	end
 end
