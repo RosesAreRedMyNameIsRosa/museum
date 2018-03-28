@@ -26,5 +26,4 @@ class PatronTest < MiniTest::Test
 		assert_equal "Sally", sally.name
 		assert_equal ["Dead Sea Scrolls"], sally.interests
 	end
-
 end
