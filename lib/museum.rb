@@ -15,7 +15,7 @@ class Museum
 	end
 
 	def add_patrons
-		
-		end
+
 	end
+end
 end
