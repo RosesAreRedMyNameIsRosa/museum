@@ -13,4 +13,9 @@ class Museum
 		@exhibits << new_exhibits
 		@exhibits << cost
 	end
+
+	def add_patrons
+		
+		end
+	end
 end
